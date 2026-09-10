@@ -1,8 +1,27 @@
 # AI 花艺师 · AI Florist
 
+![Cover](docs/images/cover-en.png)
+
 和 Agent 一起设计一束花。一个纯浏览器端的插花/花束设计工作台，通过 [WebMCP](https://github.com/webmachinelearning/webmcp) 把全部设计能力暴露为可调用的 Agent 工具——用户手动拖动，Agent 编程协作，共享同一份作品。
 
 Design a bouquet together with your agent. A browser-native floral design workbench that exposes every design capability as WebMCP tools — humans drag and drop, agents design programmatically, both share one canvas.
+
+## 效果 Showcase
+
+每束花都是 App 内真实渲染导出，配套贺卡由同一工作台生成。
+
+| 花束 Bouquet | 配套贺卡 Card |
+|---|---|
+| ![99 Roses](docs/images/valentine-99-bouquet.jpg) | ![Card](docs/images/valentine-99-card.jpg) |
+| **久久的玫瑰 / 99 Roses, One Love** — 情人节正红圆球 | "Roses are red, my heart is yours." |
+| ![A Carol of Roses](docs/images/christmas-carol-bouquet.jpg) | ![Card](docs/images/christmas-carol-card.jpg) |
+| **圣诞颂歌 / A Carol of Roses** — 红金圣诞 | "All I want for Christmas is you." |
+| ![Blush Bouquet](docs/images/blush-vow-bouquet.jpg) | ![Card](docs/images/blush-vow-card.jpg) |
+| **囍宴 · 粉雾手捧 / Wedding Blush** — 红粉抱抱桶 | "从此一屋两人，三餐四季，皆是浪漫。" |
+
+| 中文封面 | English Cover |
+|---|---|
+| ![中文封面](docs/images/cover-cn.png) | ![English Cover](docs/images/cover-en.png) |
 
 ## 功能 Features
 
