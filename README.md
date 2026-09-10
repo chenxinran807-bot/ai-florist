@@ -15,13 +15,13 @@ Design a bouquet together with your agent. A browser-native floral design workbe
 | ![Cream Lace](docs/images/cream-bouquet.jpg) | ![Card](docs/images/cream-card.jpg) |
 | **奶油蕾丝 / Cream Lace** — 奶油粉白经典款 | "May you grow freely and run toward the life you love." |
 | ![Pearl Lily](docs/images/pearl-bouquet.jpg) | ![Card](docs/images/pearl-card.jpg) |
-| **珍珠百合 / Pearl Lily** — 纯白心意 | "A heart as pure as lilies." |
+| **珍珠百合 / Pearl Lily** — 纯白心意 | "May you grow freely and run toward the life you love." |
 | ![Snowfall Letters](docs/images/christmas-snowfall-bouquet.jpg) | ![Card](docs/images/christmas-snowfall-card.jpg) |
 | **圣诞 · 雪夜松语 / Christmas · Snowfall Letters** — 雪夜松果 | "A light waiting for you." |
 | ![Pumpkin Twilight](docs/images/halloween-twilight-bouquet.jpg) | ![Card](docs/images/halloween-twilight-card.jpg) |
 | **万圣节 · 暮色南瓜 / Halloween · Pumpkin Twilight** — 橙紫暮色 | "Leave your worries at the door." |
 | ![Caramel Hours](docs/images/autumn-ode-bouquet.jpg) | ![Card](docs/images/autumn-ode-card.jpg) |
-| **秋日叙 · 焦糖时光 / Autumn Ode · Caramel Hours** — 焦糖油画感 | "The first bouquet of autumn lasts longer than the first milk tea." |
+| **秋日叙 · 焦糖时光 / Autumn Ode · Caramel Hours** — 焦糖油画感 | "Autumn’s first bouquet lasts longer than its first milk tea." |
 
 ## 功能 Features
 
