@@ -12,16 +12,16 @@ Design a bouquet together with your agent. A browser-native floral design workbe
 
 | 花束 Bouquet | 配套贺卡 Card |
 |---|---|
-| ![99 Roses](docs/images/valentine-99-bouquet.jpg) | ![Card](docs/images/valentine-99-card.jpg) |
-| **久久的玫瑰 / 99 Roses, One Love** — 情人节正红圆球 | "Roses are red, my heart is yours." |
-| ![A Carol of Roses](docs/images/christmas-carol-bouquet.jpg) | ![Card](docs/images/christmas-carol-card.jpg) |
-| **圣诞颂歌 / A Carol of Roses** — 红金圣诞 | "All I want for Christmas is you." |
-| ![Blush Bouquet](docs/images/blush-vow-bouquet.jpg) | ![Card](docs/images/blush-vow-card.jpg) |
-| **囍宴 · 粉雾手捧 / Wedding Blush** — 红粉抱抱桶 | "从此一屋两人，三餐四季，皆是浪漫。" |
-
-| 中文封面 | English Cover |
-|---|---|
-| ![中文封面](docs/images/cover-cn.png) | ![English Cover](docs/images/cover-en.png) |
+| ![Cream Lace](docs/images/cream-bouquet.jpg) | ![Card](docs/images/cream-card.jpg) |
+| **奶油蕾丝 / Cream Lace** — 奶油粉白经典款 | "May you grow freely and run toward the life you love." |
+| ![Pearl Lily](docs/images/pearl-bouquet.jpg) | ![Card](docs/images/pearl-card.jpg) |
+| **珍珠百合 / Pearl Lily** — 纯白心意 | "A heart as pure as lilies." |
+| ![Snowfall Letters](docs/images/christmas-snowfall-bouquet.jpg) | ![Card](docs/images/christmas-snowfall-card.jpg) |
+| **圣诞 · 雪夜松语 / Christmas · Snowfall Letters** — 雪夜松果 | "A light waiting for you." |
+| ![Pumpkin Twilight](docs/images/halloween-twilight-bouquet.jpg) | ![Card](docs/images/halloween-twilight-card.jpg) |
+| **万圣节 · 暮色南瓜 / Halloween · Pumpkin Twilight** — 橙紫暮色 | "Leave your worries at the door." |
+| ![Caramel Hours](docs/images/autumn-ode-bouquet.jpg) | ![Card](docs/images/autumn-ode-card.jpg) |
+| **秋日叙 · 焦糖时光 / Autumn Ode · Caramel Hours** — 焦糖油画感 | "The first bouquet of autumn lasts longer than the first milk tea." |
 
 ## 功能 Features
 
