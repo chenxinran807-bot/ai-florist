@@ -1,0 +1,71 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-09-05",
+  "backgrounds": [
+    { "id": "bg_plain", "name": "素白", "css": "#f7f5f0" },
+    { "id": "bg_rice", "name": "暖米", "css": "#efe8dc" },
+    { "id": "bg_gray", "name": "深灰", "css": "#3a3a3c" },
+    { "id": "bg_sage", "name": "灰绿", "css": "#d8ddd3" },
+    { "id": "bg_ink", "name": "墨蓝", "css": "#2c3340" }
+  ],
+  "vases": [
+    { "id": "vase_neck", "name": "细颈瓶", "shape": "neck", "anchor": { "x": 200, "y": 250 }, "spread": 26, "materials": ["porcelain", "glass"] },
+    { "id": "vase_round", "name": "圆腹瓶", "shape": "round", "anchor": { "x": 200, "y": 265 }, "spread": 46, "materials": ["porcelain", "pottery", "glass"] },
+    { "id": "vase_tube", "name": "直筒瓶", "shape": "tube", "anchor": { "x": 200, "y": 245 }, "spread": 34, "materials": ["porcelain", "pottery", "glass", "matte_black"] },
+    { "id": "vase_bowl", "name": "浅钵", "shape": "bowl", "anchor": { "x": 200, "y": 285 }, "spread": 60, "materials": ["pottery", "matte_black"] },
+    { "id": "vase_gourd", "name": "葫芦瓶", "shape": "gourd", "anchor": { "x": 200, "y": 255 }, "spread": 24, "materials": ["porcelain", "pottery"] },
+    { "id": "vase_trumpet", "name": "撇口瓶", "shape": "trumpet", "anchor": { "x": 200, "y": 240 }, "spread": 52, "materials": ["porcelain", "glass"] }
+  ],
+  "props": [
+    { "id": "prop_stones", "name": "溪石", "desc": "三两颗灰白石子，压在瓶口一侧" },
+    { "id": "prop_branch", "name": "枯枝", "desc": "一枝横斜的枯木，增加线条张力" },
+    { "id": "prop_moss", "name": "青苔", "desc": "瓶口一小簇青苔，衬出湿润感" },
+    { "id": "prop_fan", "name": "素面团扇", "desc": "斜倚在花瓶后方的团扇" }
+  ],
+  "flowers": [
+    { "id": "rose", "name": "玫瑰", "skeleton": "cup", "palettes": [
+      { "key": "crimson", "name": "深红", "petal": "#a4262c", "petal2": "#7d1a20", "core": "#5e1216" },
+      { "key": "blush", "name": "浅粉", "petal": "#e8b4b8", "petal2": "#d4939a", "core": "#b06e76" },
+      { "key": "cream", "name": "奶白", "petal": "#f3ead9", "petal2": "#e0d2b8", "core": "#c4ad87" }
+    ], "stem": "#4a6b3f", "tags": ["主花", "经典"] },
+    { "id": "daisy", "name": "雏菊", "skeleton": "radial", "palettes": [
+      { "key": "white", "name": "白瓣黄心", "petal": "#f5f2ea", "core": "#e6b93d" },
+      { "key": "pink", "name": "粉瓣", "petal": "#efc4cc", "core": "#e0a13e" }
+    ], "stem": "#55704a", "tags": ["配花", "清新"] },
+    { "id": "eucalyptus", "name": "尤加利叶", "skeleton": "leafline", "palettes": [
+      { "key": "graygreen", "name": "灰绿", "petal": "#8fa88f", "core": "#7a927a" }
+    ], "stem": "#6b7f63", "tags": ["叶材", "线条"] },
+    { "id": "tulip", "name": "郁金香", "skeleton": "cup3", "palettes": [
+      { "key": "red", "name": "正红", "petal": "#c0392b", "petal2": "#96281b" },
+      { "key": "yellow", "name": "鹅黄", "petal": "#f0c75e", "petal2": "#d9a83b" },
+      { "key": "lilac", "name": "淡紫", "petal": "#b9a7ce", "petal2": "#9782b3" }
+    ], "stem": "#4f7a45", "tags": ["主花", "春"] },
+    { "id": "lavender", "name": "薰衣草", "skeleton": "spike", "palettes": [
+      { "key": "purple", "name": "紫", "petal": "#8e7cc3", "core": "#6f5ba7" }
+    ], "stem": "#5d7355", "tags": ["线状花", "干花"] },
+    { "id": "hydrangea", "name": "绣球", "skeleton": "cluster", "palettes": [
+      { "key": "blue", "name": "浅蓝", "petal": "#a8c3d9", "core": "#7fa3c0" },
+      { "key": "pink", "name": "粉", "petal": "#e5b7c8", "core": "#cf92a9" }
+    ], "stem": "#55704a", "tags": ["主花", "团状"] },
+    { "id": "gypsophila", "name": "满天星", "skeleton": "spray", "palettes": [
+      { "key": "white", "name": "白", "petal": "#f4f1e8", "core": "#ded8c6" }
+    ], "stem": "#7a8a6a", "tags": ["配花", "填充"] },
+    { "id": "sunflower", "name": "向日葵", "skeleton": "sun", "palettes": [
+      { "key": "gold", "name": "金黄", "petal": "#e8a020", "core": "#6b4423" }
+    ], "stem": "#4f6b3a", "tags": ["主花", "夏"] },
+    { "id": "lily", "name": "百合", "skeleton": "star6", "palettes": [
+      { "key": "white", "name": "白", "petal": "#f2efe7", "core": "#d8b64a" },
+      { "key": "pink", "name": "粉", "petal": "#e6a8b8", "core": "#c9758c" }
+    ], "stem": "#4a6b3f", "tags": ["主花", "香"] },
+    { "id": "pampas", "name": "蒲苇", "skeleton": "plume", "palettes": [
+      { "key": "wheat", "name": "麦色", "petal": "#d9c9a8", "core": "#b8a482" }
+    ], "stem": "#a89478", "tags": ["干花", "氛围"] },
+    { "id": "cotton", "name": "棉花枝", "skeleton": "puff", "palettes": [
+      { "key": "white", "name": "白", "petal": "#f1ede2", "core": "#8a6f4d" }
+    ], "stem": "#7d6248", "tags": ["干花", "冬"] },
+    { "id": "plum", "name": "梅枝", "skeleton": "branchbloom", "palettes": [
+      { "key": "pink", "name": "粉", "petal": "#e3a0aa", "core": "#c26a78" },
+      { "key": "white", "name": "白", "petal": "#f0ebe0", "core": "#d9a03a" }
+    ], "stem": "#5b4636", "tags": ["木本", "冬", "线条"] }
+  ]
+}

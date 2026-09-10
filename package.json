@@ -1,0 +1,1 @@
+{"name":"yishu-xinyi","version":"1.1.0","private":true,"type":"module","scripts":{"build":"node build.mjs","check":"node --check studio.js","start":"node server.js"}}

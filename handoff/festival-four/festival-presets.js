@@ -1,0 +1,819 @@
+// Standalone editable presets. Uses the host application's item() for unique IDs.
+export const festivalPresets = [
+  {
+    "key": "halloween-twilight",
+    "title": "万圣节 · 暮色南瓜",
+    "titleEn": "Halloween · Pumpkin Twilight",
+    "bg": "stone",
+    "cardTemplate": "mono-statement",
+    "tie": {
+      "x": 505,
+      "y": 890
+    },
+    "card": {
+      "title": "今晚做个可爱鬼",
+      "body": "把烦恼留在门外，把糖果和快乐带回家。",
+      "sign": "",
+      "style": "ivory"
+    },
+    "cardEn": {
+      "title": "A little magic",
+      "body": "Leave your worries at the door. Bring home a little sweetness.",
+      "sign": ""
+    },
+    "notes": "橙色洋牡丹和酒红大丽花组成南瓜般饱满的花团，紫花点出暮色，墨黑包装收住轮廓。以配色表达万圣节，不包含南瓜或幽灵模型。 EN: Orange ranunculus and wine dahlias form a pumpkin-like mound, with violet accents and a black paper wrap.",
+    "objects": [
+      {
+        "asset": "en2",
+        "x": 505,
+        "y": 719,
+        "w": 505,
+        "angle": 0,
+        "depth": 0
+      },
+      {
+        "asset": "s1",
+        "x": 338,
+        "y": 430,
+        "w": 184,
+        "angle": -36,
+        "depth": 3,
+        "tx": 501,
+        "ty": 807,
+        "cx": 435,
+        "cy": 691
+      },
+      {
+        "asset": "s1",
+        "x": 667,
+        "y": 475,
+        "w": 169,
+        "angle": 40,
+        "depth": 3,
+        "tx": 508,
+        "ty": 812,
+        "cx": 573,
+        "cy": 697
+      },
+      {
+        "asset": "fb13",
+        "x": 407,
+        "y": 363,
+        "w": 156,
+        "angle": -17,
+        "depth": 10,
+        "tx": 515,
+        "ty": 817,
+        "cx": 461,
+        "cy": 682
+      },
+      {
+        "asset": "fb4",
+        "x": 550,
+        "y": 418,
+        "w": 221,
+        "angle": 13,
+        "depth": 13,
+        "tx": 495,
+        "ty": 802,
+        "cx": 530,
+        "cy": 689
+      },
+      {
+        "asset": "fb8",
+        "x": 414,
+        "y": 440,
+        "w": 228,
+        "angle": -17,
+        "depth": 16,
+        "tx": 502,
+        "ty": 807,
+        "cx": 463,
+        "cy": 692
+      },
+      {
+        "asset": "fb8",
+        "x": 610,
+        "y": 500,
+        "w": 204,
+        "angle": 25,
+        "depth": 18,
+        "tx": 509,
+        "ty": 812,
+        "cx": 552,
+        "cy": 700
+      },
+      {
+        "asset": "fb4",
+        "x": 354,
+        "y": 536,
+        "w": 183,
+        "angle": -26,
+        "depth": 20,
+        "tx": 516,
+        "ty": 817,
+        "cx": 441,
+        "cy": 705
+      },
+      {
+        "asset": "fb8",
+        "x": 481,
+        "y": 547,
+        "w": 246,
+        "angle": -6,
+        "depth": 23,
+        "tx": 496,
+        "ty": 802,
+        "cx": 504,
+        "cy": 706
+      },
+      {
+        "asset": "fb13",
+        "x": 650,
+        "y": 570,
+        "w": 143,
+        "angle": 29,
+        "depth": 24,
+        "tx": 503,
+        "ty": 807,
+        "cx": 551,
+        "cy": 709
+      },
+      {
+        "asset": "fb8",
+        "x": 395,
+        "y": 625,
+        "w": 168,
+        "angle": -23,
+        "depth": 26,
+        "tx": 510,
+        "ty": 812,
+        "cx": 472,
+        "cy": 716
+      },
+      {
+        "asset": "fb4",
+        "x": 568,
+        "y": 614,
+        "w": 207,
+        "angle": 16,
+        "depth": 27,
+        "tx": 517,
+        "ty": 817,
+        "cx": 520,
+        "cy": 715
+      },
+      {
+        "asset": "fd7",
+        "x": 344,
+        "y": 435,
+        "w": 121,
+        "angle": -25,
+        "depth": 19,
+        "tx": 497,
+        "ty": 802,
+        "cx": 453,
+        "cy": 692
+      },
+      {
+        "asset": "fd7",
+        "x": 507,
+        "y": 350,
+        "w": 121,
+        "angle": 6,
+        "depth": 15,
+        "tx": 504,
+        "ty": 807,
+        "cx": 498,
+        "cy": 680
+      },
+      {
+        "asset": "ec2",
+        "x": 503,
+        "y": 850,
+        "w": 118,
+        "angle": 0,
+        "depth": 61
+      }
+    ]
+  },
+  {
+    "key": "mother-softlight",
+    "title": "母亲节 · 温柔有枝",
+    "titleEn": "Mother’s Day · Gentle Light",
+    "bg": "ivory",
+    "cardTemplate": "letter-style",
+    "tie": {
+      "x": 505,
+      "y": 890
+    },
+    "card": {
+      "title": "今天也为自己盛开",
+      "body": "谢谢你一直照顾所有人。今天，把温柔留一份给自己。",
+      "sign": "",
+      "style": "ivory"
+    },
+    "cardEn": {
+      "title": "A day just for you",
+      "body": "You care for everyone. Today, save some of that kindness for yourself.",
+      "sign": ""
+    },
+    "notes": "康乃馨是主体，奶油玫瑰和白洋桔梗在低位衔接；少量橄榄枝向外舒展，棉麻纸和象牙丝带让粉色更柔和。 EN: Carnations lead, with cream roses, white lisianthus and a few olive branches, wrapped in linen-toned paper.",
+    "objects": [
+      {
+        "asset": "en6",
+        "x": 505,
+        "y": 720,
+        "w": 480,
+        "angle": 0,
+        "depth": 0
+      },
+      {
+        "asset": "s5",
+        "x": 350,
+        "y": 416,
+        "w": 201,
+        "angle": -37,
+        "depth": 3,
+        "tx": 501,
+        "ty": 807,
+        "cx": 440,
+        "cy": 689
+      },
+      {
+        "asset": "s5",
+        "x": 651,
+        "y": 451,
+        "w": 192,
+        "angle": 38,
+        "depth": 3,
+        "tx": 508,
+        "ty": 812,
+        "cx": 567,
+        "cy": 694
+      },
+      {
+        "asset": "f11",
+        "x": 422,
+        "y": 382,
+        "w": 178,
+        "angle": -18,
+        "depth": 11,
+        "tx": 515,
+        "ty": 817,
+        "cx": 466,
+        "cy": 685
+      },
+      {
+        "asset": "f11",
+        "x": 559,
+        "y": 411,
+        "w": 188,
+        "angle": 15,
+        "depth": 13,
+        "tx": 495,
+        "ty": 802,
+        "cx": 533,
+        "cy": 688
+      },
+      {
+        "asset": "f1",
+        "x": 479,
+        "y": 475,
+        "w": 211,
+        "angle": -5,
+        "depth": 18,
+        "tx": 502,
+        "ty": 807,
+        "cx": 487,
+        "cy": 697
+      },
+      {
+        "asset": "f11",
+        "x": 355,
+        "y": 484,
+        "w": 173,
+        "angle": -28,
+        "depth": 19,
+        "tx": 509,
+        "ty": 812,
+        "cx": 458,
+        "cy": 698
+      },
+      {
+        "asset": "f11",
+        "x": 632,
+        "y": 515,
+        "w": 184,
+        "angle": 27,
+        "depth": 20,
+        "tx": 516,
+        "ty": 817,
+        "cx": 544,
+        "cy": 702
+      },
+      {
+        "asset": "f11",
+        "x": 439,
+        "y": 550,
+        "w": 190,
+        "angle": -16,
+        "depth": 23,
+        "tx": 496,
+        "ty": 802,
+        "cx": 489,
+        "cy": 706
+      },
+      {
+        "asset": "f11",
+        "x": 550,
+        "y": 572,
+        "w": 190,
+        "angle": 13,
+        "depth": 24,
+        "tx": 503,
+        "ty": 807,
+        "cx": 514,
+        "cy": 709
+      },
+      {
+        "asset": "f5",
+        "x": 359,
+        "y": 591,
+        "w": 137,
+        "angle": -26,
+        "depth": 25,
+        "tx": 510,
+        "ty": 812,
+        "cx": 459,
+        "cy": 712
+      },
+      {
+        "asset": "f5",
+        "x": 639,
+        "y": 608,
+        "w": 139,
+        "angle": 29,
+        "depth": 25,
+        "tx": 517,
+        "ty": 817,
+        "cx": 547,
+        "cy": 714
+      },
+      {
+        "asset": "f1",
+        "x": 479,
+        "y": 648,
+        "w": 177,
+        "angle": -4,
+        "depth": 27,
+        "tx": 497,
+        "ty": 802,
+        "cx": 503,
+        "cy": 719
+      },
+      {
+        "asset": "f5",
+        "x": 569,
+        "y": 664,
+        "w": 129,
+        "angle": 18,
+        "depth": 28,
+        "tx": 504,
+        "ty": 807,
+        "cx": 521,
+        "cy": 721
+      },
+      {
+        "asset": "e1",
+        "x": 505,
+        "y": 840,
+        "w": 138,
+        "angle": 0,
+        "depth": 61
+      }
+    ]
+  },
+  {
+    "key": "january-dawn",
+    "title": "元旦 · 第一束晨光",
+    "titleEn": "New Year’s Day · First Light",
+    "bg": "ivory",
+    "cardTemplate": "watercolor-space",
+    "tie": {
+      "x": 505,
+      "y": 890
+    },
+    "card": {
+      "title": "新年，向光而行",
+      "body": "不必一下子成为更好的自己。先开心地，走进新的一天。",
+      "sign": "",
+      "style": "ivory"
+    },
+    "cardEn": {
+      "title": "Here comes a new day",
+      "body": "No need to become a whole new you. Start with one happy day.",
+      "sign": ""
+    },
+    "notes": "白郁金香向上舒展，黄色洋牡丹与白山茶在包装口抱团，金球花如晨光。奶油褶纸与细金带，区别于春节的正红喜庆。 EN: White tulips rise over lemon ranunculus and white camellias, with golden poms, cream pleated paper and a fine gold ribbon.",
+    "objects": [
+      {
+        "asset": "en7",
+        "x": 505,
+        "y": 724,
+        "w": 495,
+        "angle": 0,
+        "depth": 0
+      },
+      {
+        "asset": "s0",
+        "x": 342,
+        "y": 448,
+        "w": 178,
+        "angle": -36,
+        "depth": 3,
+        "tx": 501,
+        "ty": 807,
+        "cx": 437,
+        "cy": 693
+      },
+      {
+        "asset": "s5",
+        "x": 652,
+        "y": 455,
+        "w": 192,
+        "angle": 36,
+        "depth": 3,
+        "tx": 508,
+        "ty": 812,
+        "cx": 567,
+        "cy": 694
+      },
+      {
+        "asset": "f6",
+        "x": 407,
+        "y": 348,
+        "w": 146,
+        "angle": -20,
+        "depth": 10,
+        "tx": 515,
+        "ty": 817,
+        "cx": 461,
+        "cy": 680
+      },
+      {
+        "asset": "f7",
+        "x": 530,
+        "y": 390,
+        "w": 154,
+        "angle": 15,
+        "depth": 11,
+        "tx": 495,
+        "ty": 802,
+        "cx": 522,
+        "cy": 686
+      },
+      {
+        "asset": "f6",
+        "x": 606,
+        "y": 435,
+        "w": 138,
+        "angle": 22,
+        "depth": 12,
+        "tx": 502,
+        "ty": 807,
+        "cx": 534,
+        "cy": 692
+      },
+      {
+        "asset": "fd15",
+        "x": 501,
+        "y": 328,
+        "w": 115,
+        "angle": 5,
+        "depth": 9,
+        "tx": 509,
+        "ty": 812,
+        "cx": 512,
+        "cy": 678
+      },
+      {
+        "asset": "f15",
+        "x": 415,
+        "y": 472,
+        "w": 210,
+        "angle": -16,
+        "depth": 17,
+        "tx": 516,
+        "ty": 817,
+        "cx": 464,
+        "cy": 696
+      },
+      {
+        "asset": "fc12",
+        "x": 549,
+        "y": 491,
+        "w": 199,
+        "angle": 17,
+        "depth": 19,
+        "tx": 496,
+        "ty": 802,
+        "cx": 529,
+        "cy": 699
+      },
+      {
+        "asset": "f15",
+        "x": 632,
+        "y": 555,
+        "w": 171,
+        "angle": 28,
+        "depth": 20,
+        "tx": 503,
+        "ty": 807,
+        "cx": 544,
+        "cy": 707
+      },
+      {
+        "asset": "fc12",
+        "x": 350,
+        "y": 549,
+        "w": 159,
+        "angle": -28,
+        "depth": 20,
+        "tx": 510,
+        "ty": 812,
+        "cx": 456,
+        "cy": 706
+      },
+      {
+        "asset": "f15",
+        "x": 482,
+        "y": 587,
+        "w": 216,
+        "angle": -6,
+        "depth": 23,
+        "tx": 517,
+        "ty": 817,
+        "cx": 488,
+        "cy": 711
+      },
+      {
+        "asset": "f5",
+        "x": 583,
+        "y": 650,
+        "w": 143,
+        "angle": 19,
+        "depth": 25,
+        "tx": 497,
+        "ty": 802,
+        "cx": 542,
+        "cy": 720
+      },
+      {
+        "asset": "f5",
+        "x": 390,
+        "y": 644,
+        "w": 143,
+        "angle": -22,
+        "depth": 25,
+        "tx": 504,
+        "ty": 807,
+        "cx": 454,
+        "cy": 719
+      },
+      {
+        "asset": "fd15",
+        "x": 334,
+        "y": 429,
+        "w": 102,
+        "angle": -29,
+        "depth": 14,
+        "tx": 511,
+        "ty": 812,
+        "cx": 450,
+        "cy": 691
+      },
+      {
+        "asset": "ec5",
+        "x": 522,
+        "y": 848,
+        "w": 80,
+        "angle": 9,
+        "depth": 61
+      }
+    ]
+  },
+  {
+    "key": "christmas-snowfall",
+    "title": "圣诞 · 雪夜松语",
+    "titleEn": "Christmas · Snowfall Letters",
+    "bg": "dark",
+    "cardTemplate": "vintage-stamp",
+    "tie": {
+      "x": 505,
+      "y": 890
+    },
+    "card": {
+      "title": "今夜，心里有光",
+      "body": "愿漫长冬夜里，总有灯为你亮着，总有人等你回家。",
+      "sign": "",
+      "style": "ivory"
+    },
+    "cardEn": {
+      "title": "A light waiting for you",
+      "body": "May there always be a warm light and someone glad to see you home.",
+      "sign": ""
+    },
+    "notes": "白山茶与棉花如积雪，酒红马蹄莲与大丽花点出深色层次，蕨叶形成常绿轮廓；松果和酒红丝绒结收尾。现有素材用蕨叶表达冬日常绿感，不冒充松枝。 EN: White camellias and cotton suggest snow, with wine callas and dahlias among fern foliage, finished with a pine cone and velvet bow.",
+    "objects": [
+      {
+        "asset": "en6",
+        "x": 505,
+        "y": 722,
+        "w": 492,
+        "angle": 0,
+        "depth": 0
+      },
+      {
+        "asset": "s4",
+        "x": 368,
+        "y": 400,
+        "w": 248,
+        "angle": -29,
+        "depth": 3,
+        "tx": 501,
+        "ty": 807,
+        "cx": 446,
+        "cy": 687
+      },
+      {
+        "asset": "s4",
+        "x": 628,
+        "y": 423,
+        "w": 234,
+        "angle": 29,
+        "depth": 3,
+        "tx": 508,
+        "ty": 812,
+        "cx": 559,
+        "cy": 690
+      },
+      {
+        "asset": "s1",
+        "x": 489,
+        "y": 340,
+        "w": 169,
+        "angle": -5,
+        "depth": 2,
+        "tx": 515,
+        "ty": 817,
+        "cx": 491,
+        "cy": 679
+      },
+      {
+        "asset": "fc8",
+        "x": 440,
+        "y": 365,
+        "w": 156,
+        "angle": -16,
+        "depth": 10,
+        "tx": 495,
+        "ty": 802,
+        "cx": 489,
+        "cy": 682
+      },
+      {
+        "asset": "fd12",
+        "x": 566,
+        "y": 404,
+        "w": 162,
+        "angle": 18,
+        "depth": 11,
+        "tx": 502,
+        "ty": 807,
+        "cx": 520,
+        "cy": 688
+      },
+      {
+        "asset": "fc12",
+        "x": 447,
+        "y": 459,
+        "w": 218,
+        "angle": -12,
+        "depth": 16,
+        "tx": 509,
+        "ty": 812,
+        "cx": 492,
+        "cy": 695
+      },
+      {
+        "asset": "fb4",
+        "x": 592,
+        "y": 504,
+        "w": 211,
+        "angle": 23,
+        "depth": 18,
+        "tx": 516,
+        "ty": 817,
+        "cx": 529,
+        "cy": 701
+      },
+      {
+        "asset": "fd12",
+        "x": 353,
+        "y": 508,
+        "w": 156,
+        "angle": -29,
+        "depth": 19,
+        "tx": 496,
+        "ty": 802,
+        "cx": 457,
+        "cy": 701
+      },
+      {
+        "asset": "fc12",
+        "x": 485,
+        "y": 566,
+        "w": 224,
+        "angle": -5,
+        "depth": 23,
+        "tx": 503,
+        "ty": 807,
+        "cx": 490,
+        "cy": 709
+      },
+      {
+        "asset": "fc12",
+        "x": 625,
+        "y": 606,
+        "w": 163,
+        "angle": 27,
+        "depth": 24,
+        "tx": 510,
+        "ty": 812,
+        "cx": 557,
+        "cy": 714
+      },
+      {
+        "asset": "fd12",
+        "x": 403,
+        "y": 634,
+        "w": 159,
+        "angle": -18,
+        "depth": 26,
+        "tx": 517,
+        "ty": 817,
+        "cx": 459,
+        "cy": 717
+      },
+      {
+        "asset": "fb4",
+        "x": 538,
+        "y": 654,
+        "w": 167,
+        "angle": 14,
+        "depth": 27,
+        "tx": 497,
+        "ty": 802,
+        "cx": 525,
+        "cy": 720
+      },
+      {
+        "asset": "s4",
+        "x": 336,
+        "y": 607,
+        "w": 154,
+        "angle": -53,
+        "depth": 4,
+        "tx": 504,
+        "ty": 807,
+        "cx": 434,
+        "cy": 714
+      },
+      {
+        "asset": "ec8",
+        "x": 656,
+        "y": 657,
+        "w": 80,
+        "angle": 30,
+        "depth": 58
+      },
+      {
+        "asset": "ec1",
+        "x": 502,
+        "y": 843,
+        "w": 118,
+        "angle": 0,
+        "depth": 61
+      }
+    ]
+  }
+];
+export function createFestivalDesigns(item) {
+  if (typeof item !== 'function') throw new TypeError('Pass the studio item factory');
+  return Object.fromEntries(festivalPresets.map(({key,titleEn,objects,...design}) => [key, {
+    ...design,
+    objects: () => objects.map(({asset,x,y,w,angle,depth,...stem}) => item(asset,x,y,w,angle,depth,{...stem})),
+  }]));
+}
+export const festivalTitles = Object.fromEntries(festivalPresets.map(p => [p.key,[p.title,p.titleEn]]));
