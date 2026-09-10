@@ -23,6 +23,38 @@ Design a bouquet together with your agent. A browser-native floral design workbe
 | ![Caramel Hours](docs/images/autumn-ode-bouquet.jpg) | ![Card](docs/images/autumn-ode-card.jpg) |
 | **秋日叙 · 焦糖时光 / Autumn Ode · Caramel Hours** — 焦糖油画感 | "Autumn’s first bouquet lasts longer than its first milk tea." |
 
+## 快速上手 Quickstart
+
+**直接运行（零依赖、零构建）**
+
+```bash
+git clone https://github.com/chenxinran807-bot/ai-florist.git
+cd ai-florist
+python3 -m http.server 8899
+# 打开 http://127.0.0.1:8899 即是完整 App,素材已内置,离线可用
+```
+
+在支持 WebMCP 的浏览器（Chrome 149+ 开启 WebMCP flag,或 Kimi 浏览器）中打开页面,16 个 Agent 工具自动注册——Agent 可以直接读 brief、改花束、设计贺卡。
+
+**二次开发**
+
+| 需求 | 改哪里 |
+|---|---|
+| 新增花束预设 | `studio.js` → `designs`(坐标数组 + 素材 id) |
+| 新增贺卡模板 | `co-design.js` → `TEMPLATES` |
+| 文案与翻译 | `i18n.js`(单字典,中英双语) |
+| 新增素材图 | `assets/` 精灵图 + `studio.js` 顶部 catalog |
+
+**全栈形态(可选)**
+
+```bash
+node server.js   # 监听 :3000,静态托管 + OAuth 端点
+```
+
+- 无凭据环境登录区自动隐藏,不影响使用
+- 设置 `APP_ID` / `APP_SECRET` / `KIMI_AUTH_URL` 三个环境变量即启用 Kimi 登录(标准 OAuth 授权码流程,可替换为其他 OAuth 提供方)
+- App 本身是纯静态站,可直接部署到 GitHub Pages / Vercel / Netlify 等任意静态托管
+
 ## 功能 Features
 
 - **27 套风格与节日花束预设**：奶油蕾丝、建筑直线、自然野趣、克制东方，以及情人节、母亲节、毕业季、圣诞、万圣、中秋、重阳等中西节日
